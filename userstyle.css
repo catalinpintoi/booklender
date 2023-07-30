@@ -134,3 +134,39 @@ a:hover {
    background-color: #bea64d;
    border-color: #bea64d;
 }
+
+.wishlistAlert {
+   display: none;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   padding: 10px;
+   background-color: rgb(71, 48, 128);
+   color: #fff;
+   border-radius: 5px;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.customAlert {
+   display: none;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #fff;
+   padding: 20px;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+}
+
+.alertContent {
+   text-align: center;
+}
+
+.checkoutBtn,
+.continueBtn {
+   margin: 5px;
+   background-color: rgb(71, 48, 128);
+   color: #fff;
+   border-radius: 5px;
+}
